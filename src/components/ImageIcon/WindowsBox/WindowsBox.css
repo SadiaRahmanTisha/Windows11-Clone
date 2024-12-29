@@ -1,0 +1,74 @@
+.windows-box {
+	max-height: 700px;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+	left: 50%;
+	position: absolute;
+	bottom: -100%;
+	opacity: 0;
+	overflow: hidden;
+	visibility: hidden;
+	transform: translateX(-50%);
+	transition: .5s  ease;
+	background-color: rgba(255, 255, 255, 0.878);
+}
+.tools-box{
+	width: 98%;
+	max-width: 600px;
+	padding: 30px 30px;
+}
+
+.active{
+	bottom: 84px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.pinned-box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.recommended-box{
+	padding: 0px 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.profile-box{
+	height: 60px;
+	width: 100%;
+	display: flex;
+	padding: 5px 30px;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(246, 230, 230, 0.752);
+	border-radius: 10px;
+	border-top: 1px solid rgba(107, 105, 105, 0.765);
+}
+
+.profile-image{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+}
+
+.poweroff{
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 300;
+	padding-right: 40px;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}

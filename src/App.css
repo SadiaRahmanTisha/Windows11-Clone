@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wallpaper{
+	height: 100vh;
+	width: 100%;
+	background-size: 100%;
+	background-image: url("./components/imgaes/wallpaper.png");
+	position: relative;
+	overflow: hidden;
+}
+
+
+.task-bar{
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.878);
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	padding: 4px 0px;
+	justify-content: center;
+}
+
+.right-tools{
+	position: absolute;
+	right: 150px;
+	display: flex;
+	bottom: 20px;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+.time-date{
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.icons{
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

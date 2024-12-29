@@ -1,0 +1,19 @@
+.recommeded-item-box{
+	margin-top: 35px;
+	width: calc(100% /2);
+	display: flex;
+	gap: 20px;
+}
+
+.recomeded-item-image{
+	height: 60px;
+	width: 60px;
+}
+
+.recommeded-text p{
+	font-size: 20px;
+}
+.recommeded-text h5{
+	font-size: 24px;
+	font-weight: 300;
+}
